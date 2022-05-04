@@ -51,7 +51,7 @@ fun main() {
         }
     }
     // or
-    for (i in arrayOfNumbers.size - 1 downTo 0 step 5) {
-        println(i)
+    for (i in arrayOfNumbers.indices step 5) {
+        println(arrayOfNumbers[i])
     }
 }
